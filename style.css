@@ -10,6 +10,8 @@
 
 @import url(./css/colorVariables.css);
 
+@import url(./utils/utils.css);
+
 * {
     box-sizing: border-box;
 }
