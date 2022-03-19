@@ -1,4 +1,20 @@
 .display-flex{
     display: flex;
+}
+
+.flex-center{
+    justify-content: center;
     align-items: center;
+}
+
+.flex-colm{
+    flex-direction: column;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
 }

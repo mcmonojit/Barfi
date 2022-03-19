@@ -1,0 +1,29 @@
+@import url(../css/navAndFooter.css);
+
+@import url(../css/colorVariables.css);
+
+@import url(https://complib.netlify.app/css/allcomponent.css);
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-list{
+    display: flex;
+    flex-direction: row;
+} 
+
+.login-container {
+    margin: 3rem auto;
+    max-width: fit-content;
+    max-height: fit-content;
+    background-color: var(--loginContainer);
+    padding: 1.5rem;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
