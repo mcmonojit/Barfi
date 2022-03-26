@@ -1,0 +1,49 @@
+/* font - quicksand */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+/* font - poppins  */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@import url(https://complib.netlify.app/css/allcomponent.css);
+
+@import url(/css/navAndFooter.css);
+
+@import url(../css/colorVariables.css);
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px;
+}
+
+.wishlist-container{
+    margin: 4rem auto;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.wishlist-container .card-1{
+    margin: 0rem 3rem 3rem 3rem;
+}
+
+.card-1-img-section{
+    position: inherit;
+    max-height: fit-content;
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-1-overlay-text{
+    bottom: 0%;
+}
