@@ -1,6 +1,8 @@
-@import url(../css/navAndFooter.css);
+@import url(/css/navAndFooter.css);
 
-@import url(../css/colorVariables.css);
+@import url(/utils/utils.css);
+
+@import url(/css/colorVariables.css);
 
 @import url(https://complib.netlify.app/css/allcomponent.css);
 
@@ -12,6 +14,10 @@ body{
     display: flex;
     flex-direction: row;
 } 
+
+.width-100{
+    width: 100%;
+}
 
 .login-container {
     margin: 3rem auto;
